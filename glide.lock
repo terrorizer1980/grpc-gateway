@@ -6,7 +6,7 @@ imports:
 - name: github.com/golang/glog
   version: 23def4e6c14b4da8ac2ed8007337bc5eb5007998
 - name: github.com/golang/protobuf
-  version: e09c5db296004fbe3f74490e84dcd62c3c5ddb1b
+  version: 9eb2c01ac278a5d89ce4b2be68fe4500955d8179
   subpackages:
   - jsonpb
   - proto

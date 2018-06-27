@@ -34,7 +34,7 @@ go get -u github.com/tronprotocol/grpc-gateway
 # Usage
 
 1. Make sure your Tron grpc serivice has been started on `localhost:50051`  , **you can visit [How to build](http://wiki.tron.network/en/latest/The_TRON_Network.html) for starting Tron service.**
-2. Get the source code and change word dir
+2. Get the source code and change word dir (Strongly suggest update your code before you start the service on your server)
 
 ```
 # download project
@@ -50,7 +50,7 @@ cd $GOPATH/src/github.com/tronprotocol/grpc-gateway
 go get -u github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway
 go get -u github.com/grpc-ecosystem/grpc-gateway/protoc-gen-swagger
 go get -u github.com/golang/protobuf/protoc-gen-go
-./gen_proto.sh
+./gen-proto.sh
 ```
 4. run proxy-server. Make sure your code is lastest version. 
 ```
@@ -58,8 +58,8 @@ go run tron_http/main.go
 or
 go run tron_http/main.go -port 50051 -host localhost
 
-# listern is your http port
-go run tron_http/main.go -port 50051 -host 10.0.8.214 -listern 8080
+# listen is your http port
+go run tron_http/main.go -port 50051 -host 10.0.8.214 -listen 8080
 ```
 5. Test API of tron http
 

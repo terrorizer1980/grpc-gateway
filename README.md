@@ -6,6 +6,9 @@ You can download the binary release from [releases](https://golang.org/dl/) or c
 
 Make sure that your `$GOPATH/bin` is in your `$PATH`.
 
+* [Setting GOPATH](https://github.com/golang/go/wiki/SettingGOPATH)
+* [Linking GOPATH to PATH](https://github.com/golang/go/wiki/GOPATH)
+
 
 
 #### (Optional)ProtocolBuffers 3.0.0-beta-3 or later
